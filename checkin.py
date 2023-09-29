@@ -1,25 +1,16 @@
-#o'zgarmas ro'yhat yaratamiz
-davlatlar = ('Iroq', 'Malaysiya', 'Xitoy', 'Amerika', 'Norvegiya', 'O\'zbekiston')
-#ro'yhat uzunligini konsolga chiqaramiz
-print(len(davlatlar))
-#ro'yhatni tartiblaymiz
-#sorted() funksiyasi yordamida tartiblab konsolga chiqaramiz
-davlatlar2 = davlatlar[:]
-print(sorted(davlatlar2))
-#asl ro'yxatni konsolga chiqaramiz
-print(davlatlar)
-#ro'yhatni reverse() bilan chiqaramiz
-davlatlar3 = davlatlar[:]
-davlatlar3 = list(davlatlar3)
-davlatlar3.reverse()
-print(davlatlar3)
-#sort() yordamida ro'yhatni copy qilib keyin alifbo bo'yicha chiqaramiz
-davlatlar4 = davlatlar[:]
-davlatlar4 = list(davlatlar4)
-davlatlar4.sort()
-print(davlatlar4)
-#sort() yordamida ro'yxatni copy qilib alifboga teskari ravishda chiqaramiz
-davlatlar5 = davlatlar[:]
-davlatlar5 = list(davlatlar5)
-davlatlar5.sort(reverse=True)
-print(davlatlar5)
+#120dan 1200gacha bo'lgan juft sonlat ro'yxati kerak
+juft_sonlar = list(range(120, 1200, 2)) #120dan 1200gacha 2 qadam bilan
+#konsolga chiqaramiz
+print(juft_sonlar)
+#joy tashlaymiz
+print("\n\n\n\n\n\n\n\n\n\n\n\n")
+#joft_sonlar ro'yxatidagi barcha sonlarni yig'indisini hisoblaymiz
+yigindi = sum(juft_sonlar)
+print(yigindi)
+#ro'yxatdagin eng katta sondan eng kichigini ayiramiz
+eng_kichik = min(juft_sonlar)
+eng_katta = max(juft_sonlar)
+ayirma = eng_katta - eng_kichik
+print(ayirma)
+#ro'yxatdagi elementlar sonini hisoblaymiz
+print(len(juft_sonlar))
