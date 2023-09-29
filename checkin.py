@@ -14,3 +14,15 @@ ayirma = eng_katta - eng_kichik
 print(ayirma)
 #ro'yxatdagi elementlar sonini hisoblaymiz
 print(len(juft_sonlar))
+#boshidan o'rtasidan oxiridan 20ta element
+beginning_elements = juft_sonlar[:5]
+
+# Take 20 elements from the middle of the list
+middle_elements = juft_sonlar[len(juft_sonlar)//2 - 5:len(juft_sonlar)//2 + 5]
+
+# Take 20 elements from the end of the list
+end_elements = juft_sonlar[-5:]
+
+print("Beginning elements:", beginning_elements)
+print("Middle elements:", middle_elements)
+print("End elements:", end_elements)
