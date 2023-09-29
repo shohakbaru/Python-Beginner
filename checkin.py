@@ -1,2 +1,2 @@
-x = {'name' : 'John', 'age':'36'}
-print(x)
+ism = 'Bilol'
+print(f"Assalomu aleykum, {ism.upper()}")   
