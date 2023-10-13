@@ -1,8 +1,5 @@
-# Taqqoslash operatorlari
-# Taqqoslash operatori            Ma'nosi             Ishlatilishi
-#         ==                      Tenglik                 a==b
-#         !=                     Tengsizlik               a!=b
-#          <                       Kichik                  a<b
-#         <=                   Kichik yoki Teng           a<=b
-#         >                        Katta                   a>b
-#         >=                   Katta yoki Teng            a>=b
+#If-else operatori
+
+son = int(input("Istalgan son kiriting: "))
+if son>0:
+    print(son, "musbat son")
