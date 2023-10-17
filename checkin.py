@@ -18,6 +18,13 @@
 # else:
 #     print("Xush kelibsiz!")
 
-login = input("Yangi login tanlang: ")
-if len(login)>5: #login uzunligini tekshiramiz
-    print("Login 5 harfdan ko'proq bo'lishi lozim.")
+# login = input("Yangi login tanlang: ")
+# if len(login)>5: #login uzunligini tekshiramiz
+#     print("Login 5 harfdan ko'proq bo'lishi lozim.")
+
+cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+for car in cars:
+    if car == 'gm':
+        print(car.upper())
+    else:
+        print(car.title())
