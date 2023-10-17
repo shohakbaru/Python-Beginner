@@ -49,8 +49,16 @@
 # else:
 #     print("Rahmat!")
 
+# son_1 = input("Birinchi sonni kiriting: ")
+# if int(son_1) >= 0:
+#     print("Musbat son!")
+# else:
+#     print("Manfiy son!")
+import math
+
 son_1 = input("Birinchi sonni kiriting: ")
-if int(son_1) >= 0:
-    print("Musbat son!")
+if int(son_1) > 0:
+    x = math.sqrt(int(son_1))
+    print(x)
 else:
-    print("Manfiy son!")
+    print("Musbat son kiriting!")
