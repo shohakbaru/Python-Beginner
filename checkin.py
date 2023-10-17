@@ -42,9 +42,15 @@
 # else:
 #     print(f"Xush kelibsiz, {login}")
 
+# son_1 = input("Birinchi sonni kiriting: ")
+# son_2 = input("Ikkinchi sonni kiriting: ")
+# if son_1 == son_2:
+#     print("Sonlar teng!")
+# else:
+#     print("Rahmat!")
+
 son_1 = input("Birinchi sonni kiriting: ")
-son_2 = input("Ikkinchi sonni kiriting: ")
-if son_1 == son_2:
-    print("Sonlar teng!")
+if int(son_1) >= 0:
+    print("Musbat son!")
 else:
-    print("Rahmat!")
+    print("Manfiy son!")
