@@ -36,8 +36,15 @@
 #     else:
 #         print(car.upper())
 
-login = input("Loginingizni kiriting: ")
-if login == 'Admin':
-    print("Xush kelibsiz, Admin!. Foydalanuvchilar ro'yhatini ko'rasizmi?")
+# login = input("Loginingizni kiriting: ")
+# if login == 'Admin':
+#     print("Xush kelibsiz, Admin!. Foydalanuvchilar ro'yhatini ko'rasizmi?")
+# else:
+#     print(f"Xush kelibsiz, {login}")
+
+son_1 = input("Birinchi sonni kiriting: ")
+son_2 = input("Ikkinchi sonni kiriting: ")
+if son_1 == son_2:
+    print("Sonlar teng!")
 else:
-    print(f"Xush kelibsiz, {login}")
+    print("Rahmat!")
