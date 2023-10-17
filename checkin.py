@@ -22,9 +22,16 @@
 # if len(login)>5: #login uzunligini tekshiramiz
 #     print("Login 5 harfdan ko'proq bo'lishi lozim.")
 
+# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+# for car in cars:
+#     if car == 'gm':
+#         print(car.upper())
+#     else:
+#         print(car.title())
+
 cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
 for car in cars:
-    if car == 'gm':
-        print(car.upper())
-    else:
+    if car != 'gm':
         print(car.title())
+    else:
+        print(car.upper())
