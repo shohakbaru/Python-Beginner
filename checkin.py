@@ -29,9 +29,15 @@
 #     else:
 #         print(car.title())
 
-cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
-for car in cars:
-    if car != 'gm':
-        print(car.title())
-    else:
-        print(car.upper())
+# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+# for car in cars:
+#     if car != 'gm':
+#         print(car.title())
+#     else:
+#         print(car.upper())
+
+login = input("Loginingizni kiriting: ")
+if login == 'Admin':
+    print("Xush kelibsiz, Admin!. Foydalanuvchilar ro'yhatini ko'rasizmi?")
+else:
+    print(f"Xush kelibsiz, {login}")
