@@ -76,17 +76,23 @@
 #     print("Siz so'ragan barcha mahsulotlar do'konimizda bor")
 
 
-foydalanuvchilar = [
-    "ahmat",
-    "admin",
-    "user",
-    "shoh",
-    "ahmad"
-]
+# foydalanuvchilar = [
+#     "ahmat",
+#     "admin",
+#     "user",
+#     "shoh",
+#     "ahmad"
+# ]
 
-login = input("Yangi login kiriting: ")
+# login = input("Yangi login kiriting: ")
 
-if login.lower() in foydalanuvchilar:
-    print("Login band, yangi login tanglang!")
-else:
-    print("Xush kelibsiz!")
+# if login.lower() in foydalanuvchilar:
+#     print("Login band, yangi login tanglang!")
+# else:
+#     print("Xush kelibsiz!")
+
+son = int(input("Istalgan butun son kiriting: "))
+
+for n in range(2, 11):
+    if not (son % n):
+        print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
